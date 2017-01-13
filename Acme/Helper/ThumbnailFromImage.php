@@ -9,7 +9,7 @@ class ThumbnailFromImage
     protected $height;
 
     /**
-     * Resizer constructor.
+     * ThumbnailFromImage constructor.
      *
      * @param $height
      */
