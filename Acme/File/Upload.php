@@ -31,7 +31,7 @@ class Upload implements UploadInterface
         }
 
         $this->storage->set($fileName, [
-            'content' =>  $file->getContent()
+            'file' =>  $file
         ]);
     }
 
