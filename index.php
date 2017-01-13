@@ -12,6 +12,7 @@ use Acme\Storage\SessionStorage;
 
 // $request->file tu miejsce na integracje z Laravel.
 $file = File::CreateFromRequest($request->file);
+$file->setFullPath('./upload/');
 
 //Image
 $imageSession = new SessionStorage('image');
