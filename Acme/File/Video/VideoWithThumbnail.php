@@ -14,7 +14,7 @@ class VideoWithThumbnail implements UploadInterface
     protected $image;
 
     /**
-     * ImageWithThumbnail constructor.
+     * VideoWithThumbnail constructor.
      *
      * @param UploadInterface $image
      */
